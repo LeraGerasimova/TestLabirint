@@ -44,9 +44,12 @@ pip install -r requirements.txt
 
 Команды необходимо выполнить для запуска тестов:
 
-pytest -v --driver Chrome --driver-path C:/Users/Public/Driver/chromedriver.exe tests/test_header_page.py
+pytest -v --driver Chrome --driver-path C:/Users/Public/Driver/chromedriver.exe tests/test_header_page.
+
 pytest -v --driver Chrome --driver-path C:/Users/Public/Driver/chromedriver.exe tests/test_body_page.py
+
 pytest -v --driver Chrome --driver-path C:/Users/Public/Driver/chromedriver.exe tests/test_footer_page.py
+
 pytest -v --driver Chrome --driver-path C:/Users/Public/Driver/chromedriver.exe tests/test_basket.py
 
 где C:/Users/Public/Driver/ находится путь к драйверу Selenium для текущей ОС 
